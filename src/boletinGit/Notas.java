@@ -26,9 +26,7 @@ public class Notas {
         System.out.println("La media de las notas de la clase es: " + media);
 
 
-        System.out.println("Saliendo del programa...");
 
-        System.err.println("ERROR: Opci ́on no reconocida.");
     }
 
 

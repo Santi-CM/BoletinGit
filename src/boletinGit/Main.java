@@ -3,7 +3,7 @@ package boletinGit;
 
 import java.util.Scanner;
 public class Main {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Práctica de Git: ejercicio 2");
         int opcion = 0;
         Scanner sc = new Scanner(System.in);
@@ -27,32 +27,10 @@ public class Main {
 // insertar codigo aqui
                     break;
                 case 4:
-
-                    Scanner sc4 = new Scanner(System.in);
-
-                    System.out.println("¿Cuantos alumnos hay en la clase?");
-                    int numeroAlumnos = sc4.nextInt();
-
-                    double nota;
-
-                    double suma = 0;
-
-                    for (int i = 1; i <= numeroAlumnos; i++){
-                        System.out.println("¿Cual es la nota del alumno " + i + "?");
-                        nota = sc4.nextDouble();
-                        suma += nota;
-                    }
-
-                    double media = suma / numeroAlumnos;
-
-                    System.out.println("La media de las notas de la clase es: " + media);
-
-                    break;
-                case 0:
-                    System.out.println("Saliendo del programa...");
+                    Notas.notas();
                     break;
                 default:
-                    System.err.println("ERROR: Opción no reconocida.");
+                    System.out.println("Opción no reconocida");
             }
         } while (opcion != 0);
 
