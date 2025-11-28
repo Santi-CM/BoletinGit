@@ -24,7 +24,7 @@ public class Main {
 // insertar codigo aqui
                     break;
                 case 3:
-// insertar codigo aqui
+                    Figuras.figuras();
                     break;
                 case 4:
                     Notas.notas();
