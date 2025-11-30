@@ -34,6 +34,7 @@ public class Main {
                             }
 
                         }
+
                         if(contadorDivisores==0) {
                             System.out.println("El numero es primo");
                         } else {
