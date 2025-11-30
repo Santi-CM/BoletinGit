@@ -18,17 +18,18 @@ public class Main {
             opcion = sc.nextInt();
             switch (opcion) {
                 case 1:
+                    CalculadoraBasica.calculadoraBasica();
 
-        break;
+                break;
                 case 2:
 
-
+                    NumerosPrimos.numerosPrimos();
                     break;
                 case 3:
-// insertar codigo aqui
+                    Figuras.figuras();
                     break;
                 case 4:
-// insertar codigo aqui
+                    Notas.notas();
                     break;
                 case 0:
                     System.out.println("Saliendo del programa...");
